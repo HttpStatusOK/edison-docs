@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: alt
       text: 開始閱讀 
-      link: /remark/技術點和應用場景
+      link: /post/remark/技術點和應用場景
 
 features:
   - title: Lobe Chat

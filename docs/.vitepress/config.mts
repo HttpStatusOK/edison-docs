@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  head: [['link', { rel: 'icon', href: '/logo/logo.webp' }]],
   title: "Edison 知識庫",
   description: "A EdisonDocs Site",
   themeConfig: {
@@ -12,12 +13,9 @@ export default defineConfig({
     },
     lastUpdated: {
       text: '最近更新於',
-      formatOptions: {
-        dateStyle: 'full',
-        timeStyle: 'medium'
-      }
     },
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo/logo.webp',
     search: {
       provider: 'local'
     },
