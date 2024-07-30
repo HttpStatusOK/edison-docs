@@ -41,6 +41,7 @@ export default defineConfig({
           text: '食譜',
           items: [
             { text: '炒菜類', link: '/post/life/炒菜類' },
+            { text: '蒸煮類', link: '/post/life/蒸煮類' },
           ]
         }
       ]
