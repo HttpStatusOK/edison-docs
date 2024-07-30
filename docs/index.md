@@ -4,12 +4,12 @@ layout: home
 
 hero:
   name: "文档知识库"
-  text: "由 VitePress 构建"
-  tagline: 简单记录下日常工作中的一切
+  text: "记录生活中的一切"
+  tagline: "“你或许觉得我疯了，就像我觉得你过于平常”"
   image:
-    src: /logo/person_zombie_color.svg
+    src: /logo/eyes_color.svg
     alt: VitePress
-    width: 300
+    width: 230
   actions:
     - theme: brand
       text: 开始阅读
