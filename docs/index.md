@@ -3,13 +3,16 @@
 layout: home
 
 hero:
-  name: "文檔知識庫"
-  text: "由 VitePress 構建"
-  tagline: 簡單紀錄下日常工作中的一切
+  name: "文档知识库"
+  text: "由 VitePress 构建"
+  tagline: 简单记录下日常工作中的一切
   actions:
+    - theme: brand
+      text: 开始阅读
+      link: /post/remark/开发和应用场景
     - theme: alt
-      text: 開始閱讀 
-      link: /post/remark/技術點和應用場景
+      text: 关于 
+      link: /post/remark/个人博客的技术选型
 
 features:
   - title: Lobe Chat

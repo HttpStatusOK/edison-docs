@@ -3,16 +3,16 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [['link', { rel: 'icon', href: '/logo/logo.webp' }]],
-  title: "Edison 知識庫",
+  title: "Edison 知识库",
   description: "A EdisonDocs Site",
   themeConfig: {
-    returnToTopLabel: "回到頂部",
+    returnToTopLabel: "回到顶部",
     editLink: {
       pattern: 'https://github.com/HttpStatusOK/EdisonDocs/edit/main/docs/:path',
-      text: '編輯頁面'
+      text: '编辑此页'
     },
     lastUpdated: {
-      text: '最近更新於',
+      text: '最近更新于',
     },
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo/logo.webp',
@@ -21,20 +21,21 @@ export default defineConfig({
     },
 
     nav: [
-      { text: '首頁', link: '/' },
-      { text: '筆記', link: '/post/remark/技術點和應用場景', activeMatch: '/remark/' },
-      { text: '區塊鏈', link: '/post/chain/$DUNDUN', activeMatch: '/chain/' },
-      { text: '生活', link: '/post/life/炒菜類', activeMatch: '/life/' }
+      { text: '首页', link: '/' },
+      { text: '笔记', link: '/post/remark/开发和应用场景', activeMatch: '/remark/' },
+      { text: '区块链', link: '/post/chain/$DUNDUN', activeMatch: '/chain/' },
+      // { text: '生活', link: '/post/life/炒菜类', activeMatch: '/life/' }
     ],
 
 
     sidebar: {
       "/post/remark/": [
         {
-          text: '筆記',
+          text: '笔记',
           items: [
-            { text: '技術點和應用場景', link: '/post/remark/技術點和應用場景' },
-            { text: '常用軟件命令行', link: '/post/remark/常用軟件命令行' }
+            { text: '个人博客的技术选型', link: '/post/remark/个人博客的技术选型' },
+            { text: '开发和应用场景', link: '/post/remark/开发和应用场景' },
+            { text: '常用软件命令行', link: '/post/remark/常用软件命令行' }
           ]
         }
       ],
@@ -48,10 +49,10 @@ export default defineConfig({
       ],
       "/post/life/": [
         {
-          text: '食譜',
+          text: '食谱',
           items: [
-            { text: '炒菜類', link: '/post/life/炒菜類' },
-            { text: '蒸煮類', link: '/post/life/蒸煮類' },
+            { text: '炒菜类', link: '/post/life/炒菜类' },
+            { text: '蒸煮类', link: '/post/life/蒸煮类' },
           ]
         }
       ]
