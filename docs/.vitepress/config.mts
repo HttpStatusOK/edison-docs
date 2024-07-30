@@ -8,7 +8,7 @@ export default defineConfig({
     editLink: {
       pattern: 'https://github.com/HttpStatusOK/EdisonDocs/edit/main/docs/:path',
       text: '編輯頁面'
-    }
+    },
     // https://vitepress.dev/reference/default-theme-config
     search: {
       provider: 'local'
