@@ -6,6 +6,10 @@ hero:
   name: "文档知识库"
   text: "由 VitePress 构建"
   tagline: 简单记录下日常工作中的一切
+  image:
+    src: /logo/person_zombie_color.svg
+    alt: VitePress
+    width: 300
   actions:
     - theme: brand
       text: 开始阅读
@@ -27,12 +31,18 @@ features:
     icon: 
       src: /logo/cointool_logo.png
       width: 34
-  - title: Emoji Search
-    details: 允許用戶透過表情符號來搜索相關內容。這種搜索方式理解表情符號的語義，幫助快速且直觀地找到與特定表情相關的信息或資源。
-    link: https://www.emojisearch.app/
+  - title: Fluent Emoji
+    details: 在线浏览 Microsoft's 推出的 Fluent Emoji 系列，熟悉、友好且现代的表情符号目录。
+    link: https://fluentemoji.com/
     icon:
-      src: /logo/emojisearch_logo.ico
+      src: /logo/rocket_3d.png
       width: 30
+#  - title: Emoji Search
+#    details: 允許用戶透過表情符號來搜索相關內容。這種搜索方式理解表情符號的語義，幫助快速且直觀地找到與特定表情相關的信息或資源。
+#    link: https://www.emojisearch.app/
+#    icon:
+#      src: /logo/emojisearch_logo.ico
+#      width: 30
   - title: 沉浸式翻译
     details: 你可以完全免费地使用它来实时翻译外语网页，PDF翻译，EPUB电子书翻译，视频双语字幕翻译等。还可以自由选择调用OpenAI (ChatGPT)、DeepL、Gemini等人工智能引擎来翻译上述内容。
     link: https://immersivetranslate.com/
