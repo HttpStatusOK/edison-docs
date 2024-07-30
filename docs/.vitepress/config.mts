@@ -5,9 +5,17 @@ export default defineConfig({
   title: "Edison 知識庫",
   description: "A EdisonDocs Site",
   themeConfig: {
+    returnToTopLabel: "回到頂部",
     editLink: {
       pattern: 'https://github.com/HttpStatusOK/EdisonDocs/edit/main/docs/:path',
       text: '編輯頁面'
+    },
+    lastUpdated: {
+      text: '最近更新於',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
     },
     // https://vitepress.dev/reference/default-theme-config
     search: {
