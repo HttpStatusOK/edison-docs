@@ -15,7 +15,7 @@ export default defineConfig({
       text: '最近更新于',
     },
     // https://vitepress.dev/reference/default-theme-config
-    logo: https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Yawning%20Face.png,
+    logo: 'https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Yawning%20Face.png',
     search: {
       provider: 'local'
     },
