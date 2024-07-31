@@ -7,7 +7,7 @@ hero:
   text: "记录生活中的一切"
   tagline: "“你或许觉得我疯了，就像我觉得你过于平常”"
   image:
-    src: /logo/eyes_color.svg
+    src: https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Eyes.png
     alt: VitePress
     width: 230
   actions:
