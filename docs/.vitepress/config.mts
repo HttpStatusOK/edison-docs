@@ -33,7 +33,7 @@ export default defineConfig({
         {
           text: '笔记',
           items: [
-            { text: '个人博客的技术选型', link: '/post/remark/个人博客的技术选型' },
+            { text: '博客日志', link: '/post/remark/博客日志' },
             { text: '开发和应用场景', link: '/post/remark/开发和应用场景' },
             { text: '常用软件命令行', link: '/post/remark/常用软件命令行' }
           ]
