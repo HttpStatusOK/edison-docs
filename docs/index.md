@@ -16,7 +16,7 @@ hero:
       link: /post/remark/开发和应用场景
     - theme: alt
       text: 关于 
-      link: /post/remark/个人博客的技术选型
+      link: /post/remark/博客日志
 
 features:
   - title: Lobe Chat
