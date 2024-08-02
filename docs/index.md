@@ -1,6 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+markdownStyles: true
 
 hero:
   name: "文档知识库"
@@ -19,35 +20,16 @@ hero:
       link: /post/remark/博客日志
 
 features:
-  - title: Lobe Chat
-    details: 现代化设计的开源 ChatGPT/LLMs 聊天应用与开发框架，支持语音合成、多模态、可扩展的（function call）插件系统，一键免费拥有你自己的 ChatGPT 应用
-    link: https://lobechat.com/welcome
+  - title: 编程/笔记/技术分享
+    details: 深入编程世界，系统整理学习笔记，积极进行技术分享，助力他人成长，共同提升解决问题的能力。
     icon:
-      src: /logo/lobechat_logo.png
-      width: 30
-  - title: Coin Tool
-    details: 是一個多功能的在線加密工具箱，提供智能合約生成、代幣發行和加密管理等服務，旨在簡化和安全地處理加密貨幣操作。
-    link: https://cointool.app/dashboard
+      src: https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Technologist%20Light%20Skin%20Tone.png
+  - title: 区块链/Web3/Solidity
+    details: 区块链技术与Web3革新，通过Solidity编写智能合约，构建去中心化应用，开启数字经济新纪元。
     icon: 
-      src: /logo/cointool_logo.png
-      width: 34
-  - title: Fluent Emoji
-    details: 在线浏览 Microsoft's 推出的 Fluent Emoji 系列，熟悉、友好且现代的表情符号目录。
-    link: https://fluentemoji.com/
+      src: https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png
+  - title: 生活/旅行
+    details: 探索生活的美好，享受旅行的乐趣，发现未知的风景，体验不同的文化，丰富个人视野。
     icon:
-      src: /logo/rocket_3d.png
-      width: 30
-#  - title: Emoji Search
-#    details: 允許用戶透過表情符號來搜索相關內容。這種搜索方式理解表情符號的語義，幫助快速且直觀地找到與特定表情相關的信息或資源。
-#    link: https://www.emojisearch.app/
-#    icon:
-#      src: /logo/emojisearch_logo.ico
-#      width: 30
-  - title: 沉浸式翻译
-    details: 你可以完全免费地使用它来实时翻译外语网页，PDF翻译，EPUB电子书翻译，视频双语字幕翻译等。还可以自由选择调用OpenAI (ChatGPT)、DeepL、Gemini等人工智能引擎来翻译上述内容。
-    link: https://immersivetranslate.com/
-    icon:
-      src: /logo/translate_logo.png
-      width: 30
+      src: https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Snowboarder%20Light%20Skin%20Tone.png
 ---
-
