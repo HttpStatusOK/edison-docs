@@ -8,7 +8,7 @@ export default defineConfig({
   themeConfig: {
     returnToTopLabel: "回到顶部",
     editLink: {
-      pattern: 'https://github.dev/HttpStatusOK/EdisonDocs/blob/main/docs/:path',
+      pattern: 'https://github.dev/HttpStatusOK/edison-docs/blob/main/docs/:path',
       // pattern: 'https://github.com/HttpStatusOK/EdisonDocs/edit/main/docs/:path',
       text: '编辑此页'
     },
