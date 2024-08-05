@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [['link', { rel: 'icon', href: '/logo/logo.webp' }]],
+  head: [['link', { rel: 'icon', href: 'https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Technologist%20Light%20Skin%20Tone.png' }]],
   title: "Edison 知识库",
   description: "A EdisonDocs Site",
   themeConfig: {
@@ -59,7 +59,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/HttpStatusOK' }
     ],
 
     footer: {
