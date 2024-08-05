@@ -25,6 +25,19 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '笔记', link: '/post/remark/开发和应用场景', activeMatch: '/remark/' },
       { text: '区块链', link: '/post/chain/$DUNDUN', activeMatch: '/chain/' },
+      {
+        text: '实用工具',
+        items: [
+          {
+            text: '表情包',
+            items: [
+              { text: 'Fluent Emoji Mart', link: 'https://fluent-emoji-mart.zqskate.com/' },
+              { text: 'Fluent Emoji', link: 'https://fluentemoji.com/' },
+              { text: 'Animated Fluent Emojis', link: 'https://animated-fluent-emoji.vercel.app/' }
+            ]
+          }
+        ]
+      },
       // { text: '生活', link: '/post/life/炒菜类', activeMatch: '/life/' }
     ],
 
