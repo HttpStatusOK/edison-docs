@@ -71,6 +71,14 @@ export default defineConfig({
             { text: '蒸煮类', link: '/post/life/蒸煮类' },
           ]
         }
+      ],
+      "/post/tour/": [
+        {
+          text: '旅行',
+          items: [
+            { text: '🗻 日本行', link: '/post/tour/🗻 日本行' }
+          ]
+        }
       ]
     },
 
