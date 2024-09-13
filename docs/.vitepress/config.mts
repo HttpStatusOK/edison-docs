@@ -72,14 +72,14 @@ export default defineConfig({
           ]
         }
       ],
-      "/post/tour/": [
-        {
-          text: '旅行',
-          items: [
-            { text: '🗻 日本行', link: '/post/tour/🗻 日本行' }
-          ]
-        }
-      ]
+      // "/post/tour/": [
+      //   {
+      //     text: '旅行',
+      //     items: [
+      //       { text: '🗻 日本行', link: '/post/tour/🗻 日本行' }
+      //     ]
+      //   }
+      // ]
     },
 
     socialLinks: [
