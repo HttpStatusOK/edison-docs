@@ -24,7 +24,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '笔记', link: '/post/remark/开发和应用场景', activeMatch: '/remark/' },
-      { text: '区块链', link: '/post/chain/$DUNDUN', activeMatch: '/chain/' },
+      // { text: '区块链', link: '/post/chain/$DUNDUN', activeMatch: '/chain/' },
       // { text: '旅行', link: '/post/tour/🗻 日本行', activeMatch: '/tour/' },
       {
         text: '实用工具',
@@ -55,14 +55,14 @@ export default defineConfig({
           ]
         }
       ],
-      "/post/chain/": [
-        {
-          text: 'Token',
-          items: [
-            { text: '$DUNDUN', link: '/post/chain/$DUNDUN' },
-          ]
-        }
-      ],
+      // "/post/chain/": [
+      //   {
+      //     text: 'Token',
+      //     items: [
+      //       { text: '$DUNDUN', link: '/post/chain/$DUNDUN' },
+      //     ]
+      //   }
+      // ],
       "/post/life/": [
         {
           text: '食谱',
@@ -71,7 +71,7 @@ export default defineConfig({
             { text: '蒸煮类', link: '/post/life/蒸煮类' },
           ]
         }
-      ],
+      ]
       // "/post/tour/": [
       //   {
       //     text: '旅行',
