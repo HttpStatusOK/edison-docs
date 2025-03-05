@@ -51,7 +51,8 @@ export default defineConfig({
             { text: '博客日志', link: '/post/remark/博客日志' },
             { text: '开发和应用场景', link: '/post/remark/开发和应用场景' },
             { text: '常用软件命令行', link: '/post/remark/常用软件命令行' },
-            { text: '第三方登陆', link: '/post/remark/第三方登陆' }
+            { text: '第三方登陆', link: '/post/remark/第三方登陆' },
+            { text: '绿联 NAS 部署 MoviePilot', link: '/post/remark/绿联 NAS 部署 MoviePilot' }
           ]
         }
       ],
